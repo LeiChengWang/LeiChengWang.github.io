@@ -1,2 +1,2 @@
 # LeiChengWang.github.io
-用GitHub搭建个人网站
+GitHub个人网站
