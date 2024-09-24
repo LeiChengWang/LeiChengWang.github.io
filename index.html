@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=light>
 
 
 
@@ -63,7 +63,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":"90aaffafccd93cebbd9aaa64bd1683ea","google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":"90aaffafccd93cebbd9aaa64bd1683ea","google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -255,7 +255,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+            <span id="subtitle" data-typed-text="在代码中雕刻创意，构建数字世界的桥梁"></span>
           
         </div>
 
@@ -290,8 +290,16 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2024/09/24/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_self">
+          <img src="/img/default.jpg" srcset="/img/loading.gif" lazyload alt="Hexo搭建个人博客教程">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
+        
+          <i class="index-pin iconfont icon-top" title="Pin on top"></i>
         
         <a href="/2024/09/24/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_self">
           Hexo搭建个人博客教程
@@ -299,9 +307,9 @@
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/24/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_self">
+      <a class="index-excerpt " href="/2024/09/24/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_self">
         <div>
-          摘要
+          这是摘要
         </div>
       </a>
 
@@ -315,6 +323,36 @@
           </div>
         
         
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/" class="category-chain-item">环境搭建</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Hexo/">#Hexo</a>
+            
+              <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">#个人博客搭建</a>
+            
+          </div>
         
       </div>
     </article>
@@ -323,7 +361,13 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2024/09/24/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/HTML%E6%95%99%E7%A8%8B/" target="_self">
+          <img src="/img/default_index_img.jpg" srcset="/img/loading.gif" lazyload alt="HTML教程">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
         
         <a href="/2024/09/24/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/HTML%E6%95%99%E7%A8%8B/" target="_self">
@@ -332,9 +376,9 @@
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/24/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/HTML%E6%95%99%E7%A8%8B/" target="_self">
+      <a class="index-excerpt " href="/2024/09/24/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/HTML%E6%95%99%E7%A8%8B/" target="_self">
         <div>
-          引言致谢 尚硅谷、MDN、掘金、Google 等平台 本篇笔记综合以上平台相关内容，结合自己理解写成！ 整理时间：🍅🍅🍅🍅🍅🍅🍅 一、前置知识1.1 计算机先驱者   二战时期破译德军的战争编码：英格玛 让二战提前2年结束，拯救了上千万人的生命 设立图灵奖，被后人誉为：”人工智能之父”     制定了现代计算机标准：冯诺依曼体系结构	 提出计算机要采用二进制，明确计算机组成部分 被后
+          这是摘要
         </div>
       </a>
 
@@ -363,7 +407,13 @@
   <div class="row mx-auto index-card">
     
     
-    <article class="col-12 col-md-12 mx-auto index-info">
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2024/09/23/hello-world/" target="_self">
+          <img src="/img/default_index_img.jpg" srcset="/img/loading.gif" lazyload alt="Hello World">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
         
         <a href="/2024/09/23/hello-world/" target="_self">
@@ -372,7 +422,7 @@
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2024/09/23/hello-world/" target="_self">
+      <a class="index-excerpt " href="/2024/09/23/hello-world/" target="_self">
         <div>
           Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick
         </div>
@@ -441,10 +491,10 @@
     <div class="footer-inner">
   <span id="busuanzi_container_site_pv">
     本站总访问量<span id="busuanzi_value_site_pv"></span>次
-</span>
-<span id="busuanzi_container_site_uv">
-  本站访客数<span id="busuanzi_value_site_uv"></span>人次
-</span>
+  </span>
+  <span id="busuanzi_container_site_uv">
+    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+  </span>
   
     <div class="footer-content">
        <span>leilei</span>  <i class="iconfont icon-love"></i> <span>huanhuan</span>  
